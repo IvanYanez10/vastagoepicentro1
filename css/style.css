@@ -1,0 +1,105 @@
+nav{
+  width: auto;
+}
+a{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover{
+  color: #44CDFF;
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+
+.formulario, .card-deck-mess, .container-fluid{
+  padding: 0 10%;
+}
+
+.posts-initial{
+  padding: 0 10%;
+  text-align: center;
+  position: relative;
+}
+.posts-initial .list-inline-item img{
+  height: 330px;
+  margin: 5px;
+}
+.posts-initial .list-inline-item a:hover img{
+  opacity: 0.2;
+}
+.posts-initial .list-inline-item a p{
+  position: absolute;
+  transform: translate(100px, -100px);
+  visibility: hidden;
+}
+.posts-initial .list-inline-item a:hover p{
+  visibility: visible;
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .posts-initial .list-inline-item img{
+    height: 280px;
+    width: 250px;
+    margin: 5px;
+  }
+}
+@media (min-width: 992px) {
+  .posts-initial .list-inline-item img{
+    height: 300px;
+    width: 265px;
+    margin: 5px;
+  }
+}
+
+footer ul li{
+  font-size: 1.7rem;
+  padding-right: 5px;
+}
+.px-10 {
+  padding: 0 10%;
+}
+
+
+
+.item-mess{
+  width: 220px;
+  height: 300px;
+}
+.item-mess a:hover{
+  color: #275BE8;
+}
+.item-mess a:hover img{
+  opacity: 0.5;
+}
+.item-mess img{
+  display:block;
+  margin:auto;
+  border-radius: 10%;
+  border-style: none;
+  border-color: white;
+}
+.item-mess-cont{
+  display:block;
+  margin:auto;
+  padding: 0 15px;
+}
+.item-mess-des{
+  display: inline-block;
+  width: 80%;
+}
+.item-mess-ico{
+  display: inline-block;
+  width: 10%;
+}
+
+.anuncio-initial{
+  text-align: center;
+  background-color: #275BE8;
+  color: white;
+}
